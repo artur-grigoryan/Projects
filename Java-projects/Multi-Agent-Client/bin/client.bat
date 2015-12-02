@@ -1,0 +1,15 @@
+start java Duder localhost 0 Artur
+start java Duder localhost 1 Marina
+start java Duder localhost 2 Hayk
+start java Duder localhost 3 Thomas
+start java Duder localhost 4 Albert
+start java Duder localhost 5 John
+start java Duder localhost 6 David
+start java Duder localhost 7 Charley
+start java Duder localhost 8 Adam
+start java Duder localhost 9 Robert
+start java Duder localhost 10 Ben
+start java Duder localhost 11 Monica
+start java Duder localhost 12 James
+start java Duder localhost 13 Martin
+start java Duder localhost 14 Jenifer

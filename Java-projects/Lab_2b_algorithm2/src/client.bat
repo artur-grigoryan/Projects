@@ -1,0 +1,15 @@
+start java Duder localhost 0 satisfactory1
+start java Duder localhost 1 satisfactory2
+start java Duder localhost 2 satisfactory3
+start java Duder localhost 3 satisfactory4
+start java Duder localhost 4 satisfactory5
+start java Duder localhost 5 satisfactory6
+start java Duder localhost 6 satisfactory7
+start java Duder localhost 7 satisfactory8
+start java Duder localhost 8 satisfactory9
+start java Duder localhost 9 satisfactory10
+start java Duder localhost 10 satisfactory11
+start java Duder localhost 11 satisfactory12
+start java Duder localhost 12 satisfactory13
+start java Duder localhost 13 satisfactory14
+start java Duder localhost 14 satisfactory15

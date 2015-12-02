@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#3b3b3b">
+    
+    <TextView android:id="@+id/welcome"
+        	  android:layout_width="fill_parent"
+        	  android:layout_height="wrap_content"
+        	  android:textSize="40dip"
+        	  android:gravity="center"
+        	  android:layout_marginTop="20dip"/>
+    
+    <Button
+        android:id="@+id/getMessages"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dip"
+        android:background="@null"
+        android:text="Load Inbox"
+        android:textColor="#21dbd4"
+        android:textSize="20dip"
+        android:textStyle="bold" />
+    
+    
+<Button
+        android:id="@+id/getSent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dip"
+        android:background="@null"
+        android:text="Sent Messages"
+        android:textColor="#21dbd4"
+        android:textSize="20dip"
+        android:textStyle="bold" />
+
+<Button
+        android:id="@+id/logout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dip"
+        android:background="@null"
+        android:text="Logout"
+        android:textColor="#21dbd4"
+        android:textSize="20dip"
+        android:textStyle="bold" />
+
+</LinearLayout>

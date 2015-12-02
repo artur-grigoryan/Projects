@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity">
+	<TextView
+    	android:id="@+id/myLocation"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:text="@string/hello_world"
+       	android:visibility="gone" />
+	<org.osmdroid.views.MapView
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/mapview"
+		android:layout_width="fill_parent"
+	   	android:layout_height="fill_parent"
+	   	android:clickable="true" />
+	<LinearLayout android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:orientation="vertical"
+    	android:gravity="center_horizontal"
+    	tools:context=".MainActivity">
+		<EditText
+            android:id="@+id/venue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/where_to_go"
+            android:padding="5sp"
+            android:singleLine="true"
+            android:textColor="#999999"
+            android:textSize="14sp"
+            android:gravity="center"/> 
+        <EditText
+            android:id="@+id/tripdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/prefered_date"
+            android:padding="5sp"
+            android:singleLine="true"
+            android:textColor="#999999"
+            android:textSize="14sp"
+            android:gravity="center"                          
+            android:visibility="gone" />
+        <EditText
+            android:id="@+id/triptime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/prefered_time"
+            android:padding="5sp"
+            android:singleLine="true"
+            android:textColor="#999999"
+            android:textSize="14sp"
+            android:gravity="center"                          
+            android:visibility="gone" />     
+    </LinearLayout>
+    <Button android:id="@+id/schedule_trip"
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:gravity="center_horizontal"
+    		android:layout_alignParentBottom="true"
+    		android:text="@string/schedule_trip"
+    		android:visibility="gone" />
+</RelativeLayout>

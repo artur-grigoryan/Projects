@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <Button
+        android:id="@+id/view_trip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="40sp"
+        android:background="@null"
+        android:text="@string/view_trip"
+        android:textColor="#fff000"
+        android:textSize="20sp"
+        android:layout_marginRight="10dp"
+         />
+
+    <Button
+        android:id="@+id/create_trip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/view_trip"
+        android:layout_marginTop="12dp"
+        android:background="@null"
+        android:text="@string/create_trip"
+        android:textColor="#fff000"
+        android:textSize="20sp"
+        android:layout_marginRight="10dp" />
+
+    <Button
+        android:id="@+id/load_inbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/create_trip"
+        android:layout_marginTop="12dp"
+        android:background="@null"
+        android:text="Load Inbox"
+        android:textColor="#fff000"
+        android:textSize="20sp"
+        android:layout_marginRight="10dp" />
+
+    <Button
+        android:id="@+id/sent_messages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/load_inbox"
+        android:layout_marginTop="10dp"
+        android:background="@null"
+        android:text="Sent Messages"
+        android:textColor="#fff000"
+        android:textSize="20sp"
+        android:layout_marginRight="10dp" />
+
+    <Button
+        android:id="@+id/user_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/sent_messages"
+        android:layout_marginTop="10dp"
+        android:background="@null"
+        android:text="Log out"
+        android:textColor="#fff000"
+        android:textSize="20sp"
+        android:layout_marginRight="10dp" />
+
+</RelativeLayout>

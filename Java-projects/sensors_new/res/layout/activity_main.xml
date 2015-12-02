@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <TextView
+        				android:id="@+id/view3"
+        				android:layout_width="wrap_content"
+        				android:layout_height="wrap_content"
+        				android:layout_alignLeft="@+id/view1"
+        				android:layout_below="@+id/view1"
+        				android:layout_marginTop="95dp"
+        				android:text="Medium Text"
+        				android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    				<TextView
+        				android:id="@+id/gyroscopeView"
+        				android:layout_width="wrap_content"
+        				android:layout_height="wrap_content"
+        				android:layout_alignBaseline="@+id/view2"
+        				android:layout_alignBottom="@+id/view2"
+        				android:layout_alignParentLeft="true"
+				        android:text="Gyroscope"
+        				android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    				<TextView
+        				android:id="@+id/proximityView"
+        				android:layout_width="wrap_content"
+        				android:layout_height="wrap_content"
+        				android:layout_alignParentLeft="true"
+        				android:layout_below="@+id/view2"
+        				android:text="Proximity"
+        				android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    				<TextView
+        				android:id="@+id/lightView"
+        				android:layout_width="wrap_content"
+        				android:layout_height="wrap_content"
+        				android:layout_alignBaseline="@+id/view3"
+        				android:layout_alignBottom="@+id/view3"
+        				android:layout_alignRight="@+id/proximityView"
+        				android:layout_marginRight="17dp"
+        				android:text="Light"
+       	 				android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    				<TextView
+       	 				android:id="@+id/view1"
+        				android:layout_width="wrap_content"
+        				android:layout_height="wrap_content"
+        				android:layout_alignParentRight="true"
+        				android:layout_centerVertical="true"
+        				android:layout_marginRight="34dp"
+        				android:text="Medium Text"
+        				android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    				<TextView
+       					android:id="@+id/view2"
+        				android:layout_width="wrap_content"
+        				android:layout_height="wrap_content"
+        				android:layout_above="@+id/view1"
+        				android:layout_alignRight="@+id/view1"
+        				android:layout_marginBottom="84dp"
+        				android:text="Medium Text"
+        				android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+</RelativeLayout>

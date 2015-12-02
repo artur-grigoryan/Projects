@@ -1,0 +1,15 @@
+start java Duder localhost 0 greedy1
+start java Duder localhost 1 greedy2
+start java Duder localhost 2 greedy3
+start java Duder localhost 3 greedy4
+start java Duder localhost 4 greedy5
+start java Duder localhost 5 greedy6
+start java Duder localhost 6 greedy7
+start java Duder localhost 7 greedy8
+start java Duder localhost 8 greedy9
+start java Duder localhost 9 greedy10
+start java Duder localhost 10 greedy11
+start java Duder localhost 11 greedy12
+start java Duder localhost 12 greedy13
+start java Duder localhost 13 greedy14
+start java Duder localhost 14 greedy15

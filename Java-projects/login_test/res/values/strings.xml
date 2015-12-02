@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, AndroidDashboard!</string>
+    <string name="app_name">uShare</string>
+    <string name="app_id">1409497022667839</string>
+    <string name="title_activity_send_message">SendMessage</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_test">Test</string>
+    <string name="title_activity_message">Message</string>
+    <string name="title_activity_messaging">Messaging</string>
+    <string name="view_trip">Join already existing trip</string>
+	<string name="create_trip">Schedule your own tirp</string>
+	<string name="where_to_go">Where would you like to go?</string>
+	<string name="put_down_venue">put down your venue here</string>
+	<string name="prefered_date">please, specify preferred date of your trip</string>
+	<string name="prefered_time">please, specify preferred time of your trip</string>
+	<string name="schedule_trip">Schedule your trip</string>
+	
+	
+
+</resources>

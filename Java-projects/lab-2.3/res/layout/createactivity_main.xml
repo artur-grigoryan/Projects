@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    
+    
+     <Button android:id="@+id/postActivity"
+android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+      
+ android:onClick="post"
+   android:text="POST" />
+     <EditText
+    android:id="@+id/name"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:hint="fill name for the location"
+    
+     android:layout_below="@+id/postActivity"/>
+     
+     <EditText
+    android:id="@+id/desc"
+    android:layout_width="fill_parent"
+    android:layout_height="300dp"
+    android:gravity="top"
+    android:hint="fill description for the location"
+    
+     android:layout_below="@+id/name"/>
+     
+     <EditText
+    android:id="@+id/coord"
+    android:layout_width="fill_parent"
+    android:layout_height="80dp"
+    android:hint="coordinates"
+   
+     android:layout_below="@+id/desc"/>
+     
+    
+
+</RelativeLayout>

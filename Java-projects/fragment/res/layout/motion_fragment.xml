@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ff8400" >
+
+    <TextView
+        android:id="@+id/gyroView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/gyroscope"
+        android:layout_alignBottom="@+id/gyroscope"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="26dp"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/lightView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/light"
+        android:layout_alignBottom="@+id/light"
+        android:layout_alignRight="@+id/proxyView"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/proxyView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/proximity"
+        android:layout_alignBottom="@+id/proximity"
+        android:layout_alignLeft="@+id/gyroView"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/gyroscope"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="96dp"
+        android:text="Gyroscope"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/proximity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/gyroscope"
+        android:layout_below="@+id/gyroscope"
+        android:layout_marginTop="79dp"
+        android:text="Proximity"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/proximity"
+        android:layout_below="@+id/proximity"
+        android:layout_marginTop="88dp"
+        android:text="Light"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+ 
+</RelativeLayout>
